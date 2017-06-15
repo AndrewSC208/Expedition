@@ -1,0 +1,208 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>theme</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+      <!-- FIX THIS I DON'T LIKE THAT THIS PORTION DOES NOT WORK CORRECTLY -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="../styles/main.css">
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="../bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- I will need to add the side navigation here! -->
+    <nav id="menu">
+      <ul>
+        <li>Alert</li>
+      </ul>
+    </nav>
+
+    <div id="panel">
+      
+    <button class="hamburger hamburger--collapse" type="button" onclick="slideout.toggle()">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1>Reusable Components:</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="alerts">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2></h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <p>Basic:</p>
+            <div class="alert alert-success" role="alert">
+              <strong>Well done!</strong> You successfully read this important alert message.
+            </div>
+            <div class="alert alert-info" role="alert">
+              <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+            </div>
+            <div class="alert alert-warning" role="alert">
+              <strong>Warning!</strong> Better check yourself, you're not looking too good.
+            </div>
+            <div class="alert alert-danger" role="alert">
+              <strong>Oh snap!</strong> Change a few things up and try submitting again.
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <p>Link color:</p>
+            <div class="alert alert-success" role="alert">
+              <strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert message</a>.
+            </div>
+            <div class="alert alert-info" role="alert">
+              <strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it's not super important.
+            </div>
+            <div class="alert alert-warning" role="alert">
+              <strong>Warning!</strong> Better check yourself, you're <a href="#" class="alert-link">not looking too good</a>.
+            </div>
+            <div class="alert alert-danger" role="alert">
+              <strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <p>Additional Content:</p>
+            <div class="alert alert-success" role="alert">
+            <h4 class="alert-heading">Well done!</h4>
+            <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+            <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="breadcrumb">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1>Breadcrumb's:</h1>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item active">Home</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active">Library</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Library</a></li>
+              <li class="breadcrumb-item active">Data</li>
+            </ol>
+          </div>
+        </div>
+
+    </section>
+
+    <section class="buttons">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1>Buttons:</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        
+        <div class="row footer-top">
+          <div class="col-sm-12">
+            <h2 class="display-4 text-xs-center">Let's Work Together</h2>
+            <button class="btn btn-primary center-btn">Get In Touch</button>
+          </div>
+        </div>
+  
+      </div>
+  
+      <div class="footer-bottom">
+        <p class="text-xs-center">footer things will need to go here</p>
+      </div>
+        
+      
+    </footer> <!-- #/panel -->
+
+
+    
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/tether/dist/js/tether.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../bower_components/emitter-es6/browser/index.js"></script>
+    <script src="../bower_components/slideout.js/dist/slideout.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/plugins.js -->
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/main.js -->
+    <script src="../scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>

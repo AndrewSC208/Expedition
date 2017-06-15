@@ -1,0 +1,55 @@
+header.main-header {
+	position: relative;
+	top: 0;
+	left: 0;
+	min-height: 100%;
+	max-width: 100vw;
+	background-color: $gray-dark;
+	// display: flex;
+ //  	flex-direction: column;
+ //  	justify-content: center;
+
+	.header-background {
+		// position: absolute;
+  //  	top: 0;
+  //  	left: 0;
+  //  	width: 100%;
+  //  	height: 100%;
+  //  	background-color: black;
+  //  	opacity: 0.6;
+
+		img {
+			width: 100%;
+			height: 100%;
+
+		}
+	}
+
+	.jumbotron {
+		position: absolute;
+		text-align: center;
+		background-color: rgba(255,255,255, 0);
+		position: absolute;
+  	top: 50%;
+  	transform: translateY(-55%);
+	}
+}
+
+// xSmall:
+// @media (min-width: 0px, max-width: 543px) {}
+
+// Small Devices:
+// @media (min-width: 544px, max-width: 767px) {}
+
+// Medium devices (tablets, 768px and up)
+// @media (min-width: 768px, max-width: 991px) {}
+
+// Large devices (desktops, 992px and up)
+// @media (min-width: 992px, max-width: 1199px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+
+
+// I think that I need to have some type of logic that determins the aspect ratio of the viewport, then will serve up the correct image size.
+
+// so for 

@@ -1,0 +1,94 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import 'bower_components/bootstrap/scss/bootstrap.scss';
+@import 'bower_components/css-hamburgers/_sass/hamburgers/hamburgers.scss';
+// endbower
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+// // Global Utilise:
+// @import '_global.scss';
+
+// //Theme Variables:
+// //@import 'theme/_variables.scss';
+
+// // === COMPONENTS === //
+// // Alerts
+// @import 'components/_alerts.scss';
+// // Breadcrumb
+// @import 'components/_breadcrumb.scss';
+// // Buttons
+// @import 'components/_buttons.scss';
+// // Button group
+// // Card
+// // Carousel
+// @import 'components/_carousel.scss';
+// // Collapse
+// // Dropdowns
+// // Forms
+// //@import 'components/_forms.scss';
+// // Input group
+// // Jumbotron
+// // List group
+// // Modal
+// // Navs
+// // Navbar
+// @import 'components/_navbar.scss';
+// // Pagination
+// // Popovers
+// // Progress
+// // Scrollspy
+// // Tag
+// // Tooltips
+// // side-menu
+// @import 'components/_side-menu.scss';
+
+// // === SECTIONS === //
+// // HEADERS:
+// @import 'sections/headers/_header-1.scss';
+
+// // === PAGES === //
+// @import 'sections/_main-header.scss'; // Finish responsive images, add text, and button
+// @import 'sections/_main-marketing-cards.scss'; // (Done)
+// @import 'sections/_main-marketing-image.scss';
+
+// @import 'sections/_facts.scss';
+// @import 'sections/_portfolio.scss';
+// @import 'sections/_testamonial.scss';
+// @import 'sections/_home-blog.scss';
+// @import 'sections/_footer.scss';
+
+// // Pages: 
+
+// // Blog Page:
+// @import 'components/_blog-roll.scss';
+// @import 'components/_blog-pagination.scss';
+
+// // About Page:
+// @import 'components/_about-our-team.scss';
+
+// // Blog Post Page:
+// @import 'components/_blog-post.scss';
+
+// // xSmall (0 - 543px)
+
+// // Small devices (landscape phones, 544px and up)
+// // @media (min-width: 544px) { ... }
+// // sm
+// // 544 X 848
+
+// // 
+// // Medium devices (tablets, 768px and up)
+// // @media (min-width: 768px) { ... }
+
+// // Large devices (desktops, 992px and up)
+// // @media (min-width: 992px) { ... }
+
+// // Extra large devices (large desktops, 1200px and up)
+// // @media (min-width: 1200px) { ... }

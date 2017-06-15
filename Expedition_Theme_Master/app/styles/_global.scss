@@ -1,0 +1,69 @@
+// GLOBAL STYLES THAT CAN BE USED ALL PLACES;
+// remove gutters for 
+// 0px gutter
+.no-gutter.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.no-gutter > [class^="col-"], .no-gutter > [class^=" col-"]{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+// 4px gutter
+.gutter-2.row {
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+.gutter-2 > [class^="col-"], .no-gutter > [class^=" col-"]{
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+// toying with the idea of an image overlay
+.color-overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: $gray-light;
+   opacity: 0.4;
+}
+
+.circle {
+  position: absolute;
+  color: rgba(255,255,255, 1);
+  background-color: $brand-primary;
+  width: 3.2rem;
+  height: 3.2rem;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  
+  p {
+    padding-top: .80rem;
+    padding-left: 1rem;
+  }
+}
+
+// setting the section positioning:
+section {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.dark-row {
+  padding: 25px;
+  background-color: $gray-dark;
+  color: $white;
+}
+
+.light-row {
+  padding: 25px;
+  background-color: $white;
+}
+
+

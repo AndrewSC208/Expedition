@@ -1,0 +1,34 @@
+$icon-font-path: '../fonts/';
+
+// ELEMENTS:
+@import 'elements/_bootstrap.scss';
+@import 'hamburgers/_hamburgers.scss';
+
+// Global helpers:
+@import '_globals.scss';
+
+// SECTIONS:
+@import 'sections/_header1.scss';
+@import 'sections/_header2.scss';
+@import 'sections/_header3.scss';
+
+@import 'sections/_marketing-1.scss';
+@import 'sections/_marketing-2.scss';
+
+// PAGES:
+@import 'pages/_index-page.scss';
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// // Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) { ... }
+
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) { ... }
+
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) { ... }
+
+// // Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) { ... }

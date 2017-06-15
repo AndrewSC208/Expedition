@@ -1,0 +1,39 @@
+div.icon-card {
+	border: 1px solid $gray;
+	border-radius: .30rem;
+	min-height: 31vh;
+	margin: 1rem 0;
+	
+	.card-block {
+		display: flex;
+  	justify-content: center;
+  	align-items: center;
+		
+		.main-card {
+			img {
+				// center image:
+				position: relative;
+				height: 100px;
+				width: 100%;
+				margin: 0 auto;
+			}
+
+			h4.card-title {
+				margin-top: .75rem;
+				margin-bottom: 0rem;
+				text-align: center;
+			}
+			
+			p {
+				text-align: center;
+			}
+
+		}
+	
+		// I can add this later:
+		.overlay {
+			
+		}
+
+	}
+}

@@ -1,0 +1,18 @@
+.marketing-carousel {
+
+	.card {
+		border: 1px solid rgba(255,255,255, 0);
+	}
+
+	#main-marketing-carousel {
+		/* Declare heights because of positioning of img element */
+		.carousel-item {
+  		height: 28rem;
+  		background-color: #777;
+
+  		@media (max-width: 544px) {
+				height: 13rem;
+			}	
+		}
+	}
+}

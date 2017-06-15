@@ -1,0 +1,64 @@
+// MEDIA QUIRIES REFRENCE:
+// Extra small devices (portrait phones, less than 544px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 544px and up)
+// @media (min-width: 544px) { ... }
+
+// Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+// @media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) { ... }
+
+// CAROUSEL:
+.carousel-item {
+  position: relative;
+  height: 32rem;
+  margin: 0 auto;
+  background-color: #777;
+
+  img {
+    
+  }
+}
+// small devices:
+
+.carousel-control {
+  .icon-prev {
+    &::before {
+      content: url('./assets/back-sm.png');
+    }
+  }
+  .icon-next {
+    &::before {
+      content: url('./assets/next-sm.png');
+    }
+  }
+}
+
+// tablet and up:
+@media (min-width: 544px) {
+.carousel-control {
+  .icon-prev {
+    &::before {
+      content: url('./assets/back.png');// SINGLE LEFT-POINTING ANGLE QUOTATION MARK (U+2039)
+    }
+  }
+  .icon-next {
+    &::before {
+      content: url('./assets/next.png');// SINGLE RIGHT-POINTING ANGLE QUOTATION MARK (U+203A)
+    }
+  }
+}
+
+.carousel-item {
+  position: relative;
+  height: 48rem;
+  margin: 0 auto;
+  background-color: #777;
+}
+}

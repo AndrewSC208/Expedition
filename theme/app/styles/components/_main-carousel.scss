@@ -1,0 +1,70 @@
+/* CUSTOMIZE THE MAIN-CAROUSEL
+-------------------------------------------------- */
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  bottom: 10%;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 42rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 42rem;
+}
+
+// .carousel-indicators {
+//   top: 1.5rem;
+//   right: 1.5rem;
+//   bottom: auto;
+//   left: auto;
+//   width: 1rem;
+//   margin-left: 0;
+// }
+
+// .carousel-indicators > li {
+//   margin-bottom: .25rem;
+// }
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption {
+    bottom: 10%;
+    
+    .display-3 {
+      margin-bottom: 5rem;
+    }
+
+    .lead {
+      margin-bottom: 3rem;
+    }
+  }
+  .carousel-item {
+    height: 52rem;
+  }
+
+  .carousel-item > img {
+    height: 52rem;
+  }
+
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+}
+
